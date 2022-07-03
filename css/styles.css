@@ -172,17 +172,36 @@ h5 {
   display: none;
 }
 
+.fade-out {
+  display: none;
+}
+
 @media (max-width: 400px) {
   body {
     flex-direction: column;
     width: 100vw;
   }
 
-  .personal-info,
-  .ed-and-xp {
-    width: 100vw;
+  h1,
+  h5 {
+    margin: 5px;
   }
 
+  .personal-info,
+  .ed-and-xp,
+  .avatar {
+    width: 100vw;
+    padding: 0;
+  }
+
+  .personal-info-div {
+    padding: 20px;
+  }
+
+  .avatar {
+    justify-content: center;
+    padding-top: 20px;
+  }
   .copyright {
     display: none;
   }
@@ -216,5 +235,12 @@ h5 {
     font-size: 0.7rem;
     padding: 5px;
     margin: 0;
+  }
+
+  .fade-out {
+    display: inline-block;
+    height: 100px;
+    margin-top: 0;
+    background: linear-gradient(to bottom, #363062, white);
   }
 }
