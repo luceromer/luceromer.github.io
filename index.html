@@ -17,21 +17,42 @@
   <body class="flex">
     <section class="personal-info">
       <div class="personal-info-div">
-        <article class="avatar-and-name"> </article>
-        <div class="avatar flex">
-          <img src="./img/FotoMer.jpeg" alt="mer" class="avatar-mer" />
-        </div>
-        <div class="name">
-          <h1 class="title">Mercedes Lucero</h1>
-          <h5 class="title">Mechanical engineer & Front end developer</h5>
-        </div>
-
-        <article class="contact-info"> </article>
-        <div class="contact-line text"><p>From: Buenos Aires, Argentina</p> </div>
-        <div class="contact-line text"><p>Born: Feb 23, 1987</p> </div>
-        <div class="contact-line text"><p>E-mail: lucero.mer@gmail.com</p></div>
-        <div class="contact-line text"><p>Currently: Lago Puelo, Chubut</p></div>
-
+        <article class="avatar-and-name">
+          <div class="avatar flex">
+            <img src="./img/FotoMer.jpeg" alt="mer" class="avatar-mer" />
+          </div>
+          <div class="name">
+            <h1 class="title">Mercedes Lucero</h1>
+            <h5 class="title">Mechanical engineer & Front end developer</h5>
+          </div>
+        </article>
+        <article class="contact-info">
+          <div class="contact-line text"
+            ><p
+              >From:
+              <a
+                class="location"
+                href="https://www.google.com/maps/place/Buenos+Aires,+CABA/@-34.6156625,-58.503338,12z/data=!3m1!4b1!4m5!3m4!1s0x95bcca3b4ef90cbd:0xa0b3812e88e88e87!8m2!3d-34.6036844!4d-58.3815591"
+                >Buenos Aires, Argentina
+              </a>
+            </p>
+          </div>
+          <div class="contact-line text"><p>Born: Feb 23, 1987</p> </div>
+          <div class="contact-line text"
+            ><p>E-mail: <a class="location" href="mailto: lucero.mer@gmail.com"> lucero.mer@gmail.com </a> </p></div
+          >
+          <div class="contact-line text"
+            ><p
+              >Currently:
+              <a
+                class="location"
+                href="https://www.google.com/maps/place/Lago+Puelo,+Chubut/@-42.0661028,-71.612689,15z/data=!3m1!4b1!4m5!3m4!1s0x961beb6dab21611d:0x721c5da902c617e1!8m2!3d-42.0612658!4d-71.5971279"
+              >
+                Lago Puelo, Chubut
+              </a></p
+            ></div
+          >
+        </article>
         <article class="skills title">
           <div>
             <h3>Skills and tools</h3>
@@ -89,17 +110,19 @@
             <a href="https://github.com/luceromer" target="_blank"><i class="fa-brands fa-github"></i></a>
           </div>
         </article>
+        <article class="copyright"> <p> Copyright Mercedes Lucero. All rights reserved.</p> </article>
       </div>
     </section>
 
     <section class="ed-and-xp">
-      <div class="ed-and-xp-div bg">
+      <div class="ed-and-xp-div">
         <article class="about">
           <div class="title-right"> <h3>About me</h3> <hr /></div>
           <div>
             <p
-              >I am an analytical person, provided by my engineering profile. I have a curious nature, and I enjoy solving problems. I
-              believe that today's world is being driven by data analysis,
+              >I have an analytical profile focused on programming and software. I consider myself as a curious person, with an active role
+              in my work and with an eagerness to continue learning. I feel that the worlds of engineering and software are intertwined, and
+              they have a playful nature, where the search for patters and a constant improvement motivate me.
             </p></div
           >
         </article>
@@ -155,12 +178,30 @@
                   <li>Stock and resourcing analysis for phase out model parts.</li>
                 </ul>
                 <li>Assembly Quality Intern (2012-2013)</li>
+                <ul>
+                  <li>EOL tests: Investigation of assembly quality issues at the end of the process line.</li>
+                  <li>Work with 6 sigma reports on quality control.</li>
+                  <li>Study and optimization of assembly line work.</li>
+                </ul>
               </ul>
             </div>
           </div>
         </div>
 
-        <article class="other"> </article>
+        <article class="other">
+          <div class="title-right"> <h3>Coding Projects</h3> <hr /></div>
+          <div>
+            <ul class="text">
+              <li>CSV Processing Tool:</li>
+              <p class="code"
+                >During the pandemic, while I worked at Ford Argentina, the access to our normal Access databases was difficult, but the CSV
+                file was always available. By using Pandas (Python) I was able to manufacture a personal tool to process the file, and at
+                the same time investigate the dataframe to clean the data. Since the .py file was small, I was also able to share it with
+                other coworkers.
+              </p>
+            </ul>
+          </div>
+        </article>
       </div>
     </section>
   </body>
