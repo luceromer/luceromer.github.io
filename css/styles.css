@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono&family=Quicksand:wght@400;700&display=swap");
+
+/* font-family: 'DM Mono', monospace; ---> fuente monospace */
+/* font-family: 'Quicksand', sans-serif; ---> fuente de títulos */
+
+.bg {
+  border: 2px red solid;
+}
+
+.flex {
+  display: flex;
+}
+
+/**/
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 0.7rem;
+  font-family: "DM Mono", monospace;
+}
+
+a {
+  text-decoration: none;
+  color: #e9d5ca;
+}
+
+a:visited {
+  color: #e9d5ca;
+}
+
+a:hover {
+  color: #c74b50;
+}
+
+.title {
+  font-family: "Quicksand", sans-serif;
+}
+
+.title-right {
+  font-family: "Quicksand", sans-serif;
+  color: #363062;
+  letter-spacing: 0.05rem;
+}
+
+.text {
+  font-family: "DM Mono", monospace;
+  font-size: 0.7rem;
+}
+
+.personal-info {
+  background-color: #363062;
+  color: #e9d5ca;
+  flex-direction: column;
+
+  width: 27vw;
+  padding: 10px;
+}
+
+.avatar {
+  padding: 20px 0 0 20px;
+}
+
+.avatar-mer {
+  width: 150px;
+  border-radius: 100px;
+}
+
+.contact-line {
+  background-color: #827397;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.contact-line p {
+  font-size: 0.7rem;
+  padding: 0 5px;
+  margin: 0;
+}
+
+.social-media-div {
+  font-size: 1.3rem;
+  gap: 20px;
+}
+
+li {
+  padding: 2px;
+}
+
+.ed-and-xp {
+  width: 73vw;
+  padding: 20px;
+}
+
+hr {
+  width: 50px;
+  padding: 0;
+  margin: 0;
+  background-color: #363062;
+}
+
+.title-right > h3 {
+  margin: 10px 0px;
+}
+
+.col-left {
+  width: 30%;
+}
+.icon-xp {
+  width: 60%;
+}
+
+.col-right {
+  width: 70%;
+}
+
+.item {
+  padding: 10px 20px;
+}

@@ -1,96 +1,167 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>CV Mercedes Lucero</title>
+  </head>
+  <body class="flex">
+    <section class="personal-info">
+      <div class="personal-info-div">
+        <article class="avatar-and-name"> </article>
+        <div class="avatar flex">
+          <img src="./img/FotoMer.jpeg" alt="mer" class="avatar-mer" />
+        </div>
+        <div class="name">
+          <h1 class="title">Mercedes Lucero</h1>
+          <h5 class="title">Mechanical engineer & Front end developer</h5>
+        </div>
 
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
+        <article class="contact-info"> </article>
+        <div class="contact-line text"><p>From: Buenos Aires, Argentina</p> </div>
+        <div class="contact-line text"><p>Born: Feb 23, 1987</p> </div>
+        <div class="contact-line text"><p>E-mail: lucero.mer@gmail.com</p></div>
+        <div class="contact-line text"><p>Currently: Lago Puelo, Chubut</p></div>
 
-/* Create two equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 50%;
-  padding: 10px;
-  }
+        <article class="skills title">
+          <div>
+            <h3>Skills and tools</h3>
+          </div>
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-</style>
-</head>
+          <div>
+            <ul class="text">
+              <li>Languages</li>
+              <ul class="text">
+                <li>Spanish: mother tongue</li>
+                <li>English: bilingual</li>
+                <li>French: beginner</li>
+              </ul>
+              <li>Programming languages</li>
+              <ul class="text">
+                <li>Python (pandas, numpy, matplotlib)</li>
+                <li>JavaScript (vanilla)</li>
+              </ul>
+              <li>Technical writing</li>
+              <li>Agile Methodologies</li>
+              <li>Tools</li>
+              <ul class="text">
+                <li>Tableau</li>
+                <li>Github</li>
+                <li>VSCode</li>
+                <li>Jupyter Lab & Notebook</li>
+              </ul>
+            </ul>
+          </div>
+        </article>
 
-<body>
-<h1 style="font-family:verdana">Mercedes Lucero</h1>
-<h2>Logics with an artistic eye</h2>
+        <article class="hobbies title">
+          <div>
+            <h3>Hobbies and Interests</h3>
+          </div>
 
-<div class="row">
-  <div class="column">
+          <div>
+            <ul class="text">
+              <li>Problem solving</li>
+              <li></li>
+              <li>Hiking and outdoor activities</li>
+              <li>Films and TV</li>
+            </ul>
+          </div>
+        </article>
 
+        <article class="social-media title">
+          <div>
+            <h3>Social media</h3>
+          </div>
+          <div class="social-media-div flex">
+            <a href="https://www.instagram.com/mercienlalluvia" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com/Tontaenlalluvia" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/mercedes-lucero-95b44440/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/luceromer" target="_blank"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </article>
+      </div>
+    </section>
 
-<h1>Personal</h1>
-<p>I was born in Buenos Aires, Argentina, on Monday February 23rd, 1987. My zodiac sign is a proud Piscis, and my Chinese animal is the Rabbit.</p>
+    <section class="ed-and-xp">
+      <div class="ed-and-xp-div bg">
+        <article class="about">
+          <div class="title-right"> <h3>About me</h3> <hr /></div>
+          <div>
+            <p
+              >I am an analytical person, provided by my engineering profile. I have a curious nature, and I enjoy solving problems. I
+              believe that today's world is being driven by data analysis,
+            </p></div
+          >
+        </article>
 
-<h2>My passions</h2>
-<p>I am an avid learner, and I find joy in connecting themes, events and disciplines.</p>
+        <article class="education">
+          <div class="title-right"> <h3>Education</h3> <hr /></div>
+          <div> </div>
 
-<ul>
-  <li>World history and its impact on today's world.</li>
-  <li>Film history and theory.</li>
-    <ul>
-      <li>1920s German expressionism.</li>
-      <li>1950s post war European cinema.</li>
-      <li>1970s post-Hays code world.</li>
-      <li>1970-1990s Argentinian cinema.</li>
-    </ul>
-  <li>Photography and photo editing.</li>
-  <li>Programming and finding solutions while having fun.</li>
-  <li>Mathematics and logical fundaments.</li>
-  <li>Learning new languages.</li>
-</ul>
+          <div class="education item">
+            <div class="indiv-educ flex">
+              <div class="col-left"> <img src="./img/fiuba.png" alt="fiuba" class="icon-xp" /> </div>
+              <div class="col-right">
+                <h4 class="title">Faculty of Engineering - University of Buenos Aires</h4>
+                <ul class="text">
+                  <li>Degree: Mechanical Engineer (2022)</li>
+                  <li>Final Project: Physical simulation of welding thermal cycles with an Induction Furnace</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="indiv-educ flex">
+            <div class="col-left"> <img src="./img/dig-house.png" alt="digital house" class="icon-xp" /> </div>
+            <div class="col-right">
+              <h4 class="title">Digital House</h4>
+              <ul class="text">
+                <li>Degree: Certified Tech developer (ongoing)</li>
+                <li>Full stack developer</li>
+              </ul>
+            </div>
+          </div>
+        </article>
 
-<h2>Films that impacted me</h2>
+        <article class="xp"> </article> <div class="title-right"> <h3>Work Experience</h3> <hr /></div>
+        <div class="work-xp item">
+          <div class="indiv-work flex">
+            <div class="col-left"> <img src="./img/ford-3d.svg" alt="ford" class="icon-xp" /> </div>
+            <div class="col-right">
+              <h4 class="title">Ford Argentina (2012-2021)</h4>
+              <ul class="text">
+                <li>Forecasting Coordinator (2016-2021)</li>
+                <ul>
+                  <li
+                    >Synergy with IT team to develop new reports and metrics Warranty orders monitoring with Engineering dept. to identify
+                    abnormal demands.</li
+                  >
+                  <li>Coordination with the Marketing dept. for parts supply for service actions.</li>
+                </ul>
+                <li>Forecasting Analyst (2013-2016)</li>
+                <ul>
+                  <li>Study and analysis of demand, forecasting and planning for Ford vehicles parts. Total aprox. SKU: 100k.</li>
+                  <li>Backorder and resourcing analysis with VOR team.</li>
+                  <li>Initial order calculation of service parts for initial launches. </li>
+                  <li>Stock and resourcing analysis for phase out model parts.</li>
+                </ul>
+                <li>Assembly Quality Intern (2012-2013)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
 
-<ul>
-  <li>2001: A space odyssey (1968, dir: Stanley Kubrick)</li>
-  <li>The Hudsucker Proxy (1994, dir: Joel Coen).</li>
-  <li>8 1/2 (1963, dir: Federico Fellini).</li>
-  <li>Smultronstället (1957, dir: Ingmar Bergman).</li>
-  <li>Das Cabinet des Dr. Caligari (1920, dir: Robert Wiene)</li>
-  <li>Una sombra ya pronto serás (1994, dir: Héctor Olivera)</li>
-  <li>Sunset Blvd (1950, dir: Billy Wilder)</li>
-  <li>The Last Picture Show (1971, dir: Peter Bogdanovich)</li>
-  <li>La ciénaga (2001, dir: Lucrecia Martel)</li>
-</ul>
-
-<h2>Quotes</h2>
-<ul>
-  <li>"And after you finish that one, you start on the next. And on and on." - Tick tick Boom! (2022)</li>
-  <li></li>
-  <li></li>
-  <li></li>
-</ul>
-
-
-</div>
-<div class="column">
-  <h1>Professional</h1>
-
-  <h2>Work mantra</h2>
-  <p>Be part of a creative environment where collaboration is its pillar.</p>
-
-<h2>Past jobs and work experiences</h2>
-
-
-
-</div>
-
-
-
-</div>
-</body>
+        <article class="other"> </article>
+      </div>
+    </section>
+  </body>
 </html>
