@@ -167,3 +167,54 @@ h5 {
 .copyright > p {
   font-size: 0.7rem;
 }
+
+.footer {
+  display: none;
+}
+
+@media (max-width: 400px) {
+  body {
+    flex-direction: column;
+    width: 100vw;
+  }
+
+  .personal-info,
+  .ed-and-xp {
+    width: 100vw;
+  }
+
+  .copyright {
+    display: none;
+  }
+
+  .col-left {
+    display: none;
+  }
+
+  .col-right {
+    width: 100%;
+  }
+
+  .copyright {
+    background-color: #363062;
+  }
+
+  .ed-and-xp {
+    padding: 10px;
+    width: 100%;
+  }
+
+  .footer {
+    display: flex;
+    background-color: #363062;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .footer > p {
+    color: white;
+    font-size: 0.7rem;
+    padding: 5px;
+    margin: 0;
+  }
+}
