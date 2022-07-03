@@ -19,11 +19,10 @@ body {
 }
 
 h1 {
-  font-size: 1.7rem;
+  font-size: 2rem;
 }
 
 p {
-  font-size: 0.7rem;
   font-family: "DM Mono", monospace;
 }
 
@@ -52,7 +51,6 @@ a:hover {
 
 .text {
   font-family: "DM Mono", monospace;
-  font-size: 0.7rem;
 }
 
 hr {
@@ -98,13 +96,12 @@ h5 {
 }
 
 .contact-line p {
-  font-size: 0.7rem;
   padding: 0 5px;
   margin: 0;
 }
 
 .social-media-div {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   gap: 20px;
 }
 
@@ -160,7 +157,7 @@ h5 {
 
 .code {
   margin: 2px;
-  font-size: 0.6rem;
+  font-size: 0.8rem;
 }
 
 .personal-info-div > article {
@@ -168,5 +165,5 @@ h5 {
 }
 
 .copyright > p {
-  font-size: 0.5rem;
+  font-size: 0.7rem;
 }
