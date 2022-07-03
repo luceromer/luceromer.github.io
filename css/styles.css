@@ -244,3 +244,9 @@ h5 {
     background: linear-gradient(to bottom, #363062, white);
   }
 }
+
+@media (min-width: 1441px) {
+  html {
+    font-size: 22px;
+  }
+}
